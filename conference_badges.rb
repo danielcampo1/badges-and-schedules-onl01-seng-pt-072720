@@ -23,7 +23,8 @@ end
 def printer(attendees)
   batch_badge_creator(attendees) do |badge|
     puts badge
-    room_assignments()
+    assign_rooms(attendees) do |room|
+      puts 
 end
 end
 
