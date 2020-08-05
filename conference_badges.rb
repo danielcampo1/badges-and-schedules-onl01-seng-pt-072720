@@ -16,7 +16,6 @@ def assign_rooms(room_assignments)
   new_array = []
     room_assignments.each_with_index do |name, i|
       new_array.push("hello, #{name}! You'll be asssigned to room #{i +1}")
- binding.pry
   end
     
 end
