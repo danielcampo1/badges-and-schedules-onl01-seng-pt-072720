@@ -13,6 +13,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(room_assignments)
+  new_array
     room_assignments.each do |room|
       puts "hello, #{room_assignments}! You'll be asssigned to room #{each_with_index}"
  binding.pry
