@@ -24,5 +24,7 @@ def printer(attendees)
   batch_badge_creator(attendees) do |badge|
     puts badge
 end
+end
+
 
 
