@@ -21,7 +21,8 @@ def assign_rooms(room_assignments)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees) do |
+  batch_badge_creator(attendees) do |badges|
+    puts badges
 end
 
 
